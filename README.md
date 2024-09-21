@@ -6,7 +6,7 @@ Our Eiger-PORT+ protocol improves the upper bound of isolation guarantees achiev
 
 ## Usage
 - To compile the Isabelle theories, install the latest version of Isabelle/HOL at https://isabelle.in.tum.de/index.html.
-- Modeling and Verification of our novel Eiger_PORT+ protocol can be found in [EP+.thy](VerIso/EP+.thy) and [EP+_Proof.thy](VerIso/EP+_Proof.thy). To directly access the reduction and refinement proofs, run [EP+_Reduction.thy](VerIso/EP+_Reduction.thy) and [EP+_Refinement_Proof.thy](VerIso/EP+_Refinement_Proof.thy) theories respectively.
+- Modeling and Verification of our novel Eiger_PORT+ protocol can be found in [EP+.thy](EP+.thy) and [EP+_Proof.thy](EP+_Proof.thy). To directly access the reduction and refinement proofs, run [EP+_Reduction.thy](EP+_Reduction.thy) and [EP+_Refinement_Proof.thy](EP+_Refinement_Proof.thy) theories respectively.
 - To see the progress on loading theories check Isabelle's "Theories" panel.
 - To inspect the proof state, please make sure "Proof state" box is checked in Isabelle's "Output" tab.
   * To only see the lemmas or theorems statement, place the cursor on them and look at Isabelle's Output tab.
