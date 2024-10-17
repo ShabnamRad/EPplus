@@ -1,4 +1,4 @@
-section \<open>EP+: General Correctness Proof (Theorem 1 + Lemmas 1 and 2 of the paper (Section 4.3))\<close>
+section \<open>EP+: General Correctness Proof (Theorem 1 + Lemmas 1 and 2 of the paper (Section 4.4))\<close>
 
 theory "EP+_Proof"
   imports "EP+_Reduction" "EP+_Sorted_eq_E" "EP+_Refinement_Proof"
