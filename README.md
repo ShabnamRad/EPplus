@@ -5,7 +5,7 @@ Verified Performance-Optimal Causally Consistent Database Transactions
 Our Eiger-PORT+ protocol improves the upper bound of isolation guarantees achievable by performance-optimal read-only transactions in the presence of transactional writes from the previously conjectured TCC (Transactional Causal Consistency) to TCCv (TCC with convergence). Additionally, Eiger-PORT+ outperforms the state-of-the-art. Evaluation results are available under the [eiger-port-plus_evaluation](https://github.com/lucamul/EIGER-PORT-PLUS) submodule.
 
 ## Usage
-- To compile the Isabelle theories, install the latest version of Isabelle/HOL at https://isabelle.in.tum.de/index.html.
+- To load the Isabelle theories, install the latest version of Isabelle/HOL at https://isabelle.in.tum.de/index.html.
 - Modeling and Verification of our novel Eiger_PORT+ protocol can be found in [EP+.thy](EP+.thy) and [EP+_Proof.thy](EP+_Proof.thy). To directly access the reduction and refinement proofs, run [EP+_Reduction.thy](EP+_Reduction.thy) and [EP+_Refinement_Proof.thy](EP+_Refinement_Proof.thy) theories respectively.
 - To see the progress on loading theories check Isabelle's "Theories" panel.
 - To inspect the proof state, please make sure "Proof state" box is checked in Isabelle's "Output" tab.
